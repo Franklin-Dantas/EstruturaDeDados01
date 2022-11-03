@@ -1,0 +1,34 @@
+1aQuestão: Considere uma lista de produtos implementada através de uma lista linear simplesmente encadeada. Considere que esta lista não está ordenada e NÃO pode conter produtos repetidos. Implemente um programa para manipular esta lista. O programa deverá implementar o menu abaixo e um loop para permitir que o usuário manipule a lista.
+
+Menu de opções
+1 – Inserir novo produto no início da lista
+2 – Inserir novo produto no final da lista
+3 – Remover o primeiro produto da lista
+4 – Remover o último produto da lista
+5 – Exibir todos os produtos da lista
+6 – Exibir os dados de um produto da lista
+7 – Alterar os dados de um produto da lista
+8 – Remover um dado produto
+0 – Sair do programa
+
+O programa deverá conter quatro classes: a classe Produto, a classe LSENode, a classe LSEProdutos e a classe principal (aplicação). Sobre cada produto deverão ser mantidas as seguintes informações: código (String), descrição (String), preço (double) e estoque (int). Implemente, na classe Produto, o construtor, os métodos get e set, o método toString e o método compareTo (o que diferencia um produto de outro é seu código). Após criado um produto, seu código não poderá ser alterado.
+A classe LSEProdutos deverá ter os seguintes métodos:
+
+(a) Procedimento para inserir um novo produto no início da lista. Este procedimento deverá receber como parâmetro o produto a ser inserido.
+(b) Procedimento para inserir um novo produto no final da lista. Este procedimento deverá receber como parâmetro o produto a ser inserido.
+(c) Procedimento para exibir todos os produtos cadastrados na lista.
+(d) Procedimento para remover o produto situado no início da lista.
+(e) Procedimento para remover o produto situado no final da lista.
+(f) Função para, dado o código de um produto, procurá-lo na lista e, caso encontre, retornar uma referência para o nó que o contém. Caso não encontre, deverá retornar null. Esta função deverá ser privada.
+(g) Procedimento para, dado o código de um produto, procurá-lo na lista. Para tal, deverá utilizar a função definida no item (f). Caso encontre, exibir os dados do produto. Caso não encontre, avisar ao usuário que o produto não está cadastrado.
+(h) Procedimento para, dado o código de um produto, procurá-lo na lista. Para tal, deverá utilizar a função definida no item (f). Caso encontre, alterar os dados (preço e/ou estoque) do produto. Caso não encontre, avisar ao usuário que o produto não está cadastrado.
+(i) Procedimento para, dado o código de um produto, procurá-lo na lista. NÃO utilizar a função definida no item (f). Caso encontre, remover produto. Caso não encontre, avisar ao usuário que o produto não está cadastrado.
+OBS: Os métodos dos itens (g) e (h) devem fazer uso da função de busca definida no item (f).
+
+2aQuestão: Considere uma lista linear simplesmente encadeada NÃO ordenada e que pode conter valores repetidos. Implemente um método para, dado um valor passado como parâmetro, remover da lista todos os valores iguais a ele. Ao final, o método deverá informar quantos valores foram removidos.
+
+3aQuestão: Considere duas listas lineares simplesmente encadeadas cujos nós armazenam números
+inteiros. Faça uma função para criar uma terceira lista também simplesmente encadeada. Cada nó da
+
+terceira lista será preenchido com a soma dos valores dos nós correspondentes das duas primeiras listas.
+Exemplo de chamada: L3 = L1.somar (L2);

@@ -1,0 +1,4 @@
+Considere a lista simplesmente encadeada de alunos (LSEAluno) com a qual trabalhamos na Atividade 2 - LSE. Implemente, na classe LSEAluno, um método para criar uma cópia da lista. Este método deverá ser uma FUNÇÃO que não recebe parâmetros e retorna uma lista de alunos que é uma cópia idêntica da lista original.
+Exemplo de chamada do método:
+LSEAluno copia;
+copia = turma.criarCopia();

@@ -106,6 +106,7 @@ public class LSEAluno {
             result.getInfo().setMedia(novaMedia);
             System.out.println("Média alterada para :" + novaMedia);
         }
+        in.close();
     }
 
     public void alteraFaltas(String matr) {
@@ -122,6 +123,7 @@ public class LSEAluno {
             result.getInfo().setFaltas(faltas);
             System.out.println("Quantidade de faltas alteradas para :" + faltas);
         }
+        in.close();
     }
 
     public void removeFinal() {

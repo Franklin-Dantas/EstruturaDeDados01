@@ -67,6 +67,7 @@ public class Menu {
                                         System.out.println("Opção inválida!");
                         }
                 } while (op != 0);
+                in.close();
         }
 
         public static void menu() {

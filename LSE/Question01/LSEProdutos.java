@@ -175,6 +175,7 @@ public class LSEProdutos {
    
             System.out.println("Dados do produto alterados!");
         }
+        in.close();
     }
 
 }

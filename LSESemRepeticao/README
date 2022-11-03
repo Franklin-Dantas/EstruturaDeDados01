@@ -1,0 +1,36 @@
+Questão única: Implemente uma lista simplesmente encadeada (LSE) de Aluno e um programa
+para manipular esta lista. A LSE implementada não deve aceitar elementos repetidos. O
+programa que deve ser implementado deverá ter um menu de opções e um loop para permitir que
+o usuário manipule a lista.
+Menu de opções
+1 – Inserir um novo aluno no início da lista (já implementado em durante a aula)
+2 – Inserir um novo aluno no final da lista (já implementado em durante a aula)
+3 - Exibir todos os alunos da lista (já implementado em durante a aula)
+4 – Exibir os dados de um aluno
+5 – Alterar a média de um aluno
+6 – Alterar a quantidade de faltas de um aluno
+7 – Remover um aluno da lista
+0 – Sair do programa
+Para possibilitar que estas operações sejam realizadas, a classe LSE deverá ter os seguintes
+métodos:
+(a) Procedimento para inserir um novo aluno no início da lista. Este procedimento deverá
+receber como parâmetro o aluno a ser inserido. (já implementado em durante a aula)
+(b) Procedimento para inserir um novo aluno no final da lista. Este procedimento deverá
+receber como parâmetro o aluno a ser inserido. (já implementado em durante a aula)
+(c) Procedimento para exibir todos os alunos da lista. Este método não recebe parâmetro. (já
+implementado em durante a aula)
+(d) Procedimento para exibir os dados de um determinado aluno. Este método recebe como
+parâmetro a matrícula do aluno cujos dados desejamos exibir, procura o aluno na lista
+utilizando a função de busca implementada em nossa última aula e, caso encontre o aluno,
+exibe seus dados.
+(e) Procedimento para alterar a média de um determinado aluno. Este método recebe como
+parâmetro a matrícula do aluno cuja média desejamos alterar, procura o aluno na lista
+utilizando a função de busca implementada em nossa última aula e, caso encontre o aluno,
+altera sua média.
+(f) Procedimento para alterar a quantidade de faltas de um determinado aluno. Este método
+recebe como parâmetro a matrícula do aluno cuja quantidade de faltas desejamos alterar,
+procura o aluno na lista utilizando a função de busca implementada em nossa última aula
+e, caso encontre o aluno, altera sua quantidade de faltas.
+(g) Procedimento para remover um determinado aluno. Este método recebe como parâmetro
+a matrícula do aluno que desejamos remover. Se o aluno estiver na lista, deve ser
+removido juntamente com o nó que o contém. (DESAFIO)

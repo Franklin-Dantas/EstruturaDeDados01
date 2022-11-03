@@ -1,0 +1,26 @@
+    Questão única: Implemente uma lista (LSE) de Aluno e um programa para manipular
+esta lista.
+    O programa que deve ser implementado deverá ter um menu de opções e um loop para
+permitir que o usuário manipule a lista.
+
+Menu de opções:
+1 – Inserir um novo aluno no início da lista (já implementado em durante a aula)
+2 – Remover o primeiro aluno da lista
+3 – Inserir um novo aluno no final da lista
+4 – Remover o último aluno da lista
+5 – Exibir todos os alunos da lista (já implementado em durante a aula)
+0 – Sair do programa
+
+Para possibilitar que estas operações sejam realizadas, a classe LSE deverá ter os seguintes métodos:
+
+(a) Procedimento para inserir um novo aluno no início da lista. Este procedimento deverá
+receber como parâmetro o aluno a ser inserido. (já implementado em durante a aula)
+(b) Procedimento para inserir um novo aluno no final da lista. Este procedimento deverá
+receber como parâmetro o aluno a ser inserido. DICA: Combine as lógicas de dois
+métodos: o de exibir a lista (item C) e o de inserir no início (item A).
+(c) Procedimento para exibir todos os alunos da lista. Este método não recebe parâmetro. (já
+implementado em durante a aula)
+(d) Procedimento para remover o aluno situado no início da lista. Este método não recebe
+parâmetro.
+(e) Procedimento para remover o aluno situado no final da lista. Este método não recebe
+parâmetro.

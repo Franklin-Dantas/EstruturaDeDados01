@@ -17,6 +17,8 @@ public class Menu {
                         op = in.nextInt();
                         in.nextLine();
                         switch (op) {
+                                default:
+                                        System.out.println("Opção inválida!");
                                 case 0:
                                         System.out.println("Encerrando...");
                                         break;
@@ -63,8 +65,6 @@ public class Menu {
                                         copia = turma.criarCopia();
                                         copia.exibirTodos();
                                         break;
-                                default:
-                                        System.out.println("Opção inválida!");
                         }
                 } while (op != 0);
                 in.close();

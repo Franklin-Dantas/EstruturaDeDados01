@@ -73,21 +73,17 @@ public class LDE <T extends Comparable<T>> {
     }
     public void removerInicio () {       
         if (this.isEmpty() == true) {
-            System.out.println("Lista vazia!!!");
-        }
-        else if (this.qtd == 1) {
+            System.out.println("Lista vazia!");
+        } else if (this.qtd == 1) {
             this.primeiro = null;
             this.ultimo = null;
             this.qtd = 0;
-        }
-        // lista com mais de um no
-        else { 
-            this.ultimo = this.ultimo.getAnt();
-            this.ultimo.setProx (null);
+        } else {
+            this.primeiro = this.primeiro.getProx();
+            this.primeiro.setAnt(null);
             this.qtd--;
         }
     }
-
     public void removerFinal() {
         if (this.isEmpty() == true) {
             System.out.println("Lista vazia!");

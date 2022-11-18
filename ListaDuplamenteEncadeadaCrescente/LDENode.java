@@ -1,8 +1,11 @@
+// Listas duplamente encadeadas
+
+// Classe LDENode
+
 public class LDENode <T extends Comparable<T>> {
     private LDENode<T> ant;
     private T info;
     private LDENode<T> prox;  
-    
     public LDENode (T valor) {
         this.info = valor;
     }

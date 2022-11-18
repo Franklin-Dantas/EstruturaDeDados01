@@ -1,5 +1,4 @@
-
-//lista duplamente encadeada ordenada em ordem crescente
+ //lista duplamente encadeada ordenada em ordem crescente
 public class LDECrescente <T extends Comparable <T>> {
     private LDENode<T> primeiro;
     private LDENode<T> ultimo;
